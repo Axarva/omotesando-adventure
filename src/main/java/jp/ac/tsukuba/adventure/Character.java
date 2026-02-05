@@ -15,7 +15,7 @@ abstract class Character {
     }
 
     // Method for meeting entities 
-    public abstract void interact();
+    public abstract void interact(Character character);
 
     // Method for entities to get player reaction
     public abstract String getPlayerReaction();

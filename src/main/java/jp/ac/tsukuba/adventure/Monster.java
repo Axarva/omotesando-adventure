@@ -5,7 +5,7 @@ class Monster extends Character {
         super(name, "XX", x, y, 100, 20);
     }
     @Override
-    public void interact() { System.out.println(name + ": GRRRRR!"); }
+    public void interact(Character character) { System.out.println(name + ": GRRRRR!"); }
     @Override
     public String getPlayerReaction() { return "There is a monster here!"; }
     @Override

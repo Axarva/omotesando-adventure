@@ -7,7 +7,7 @@ class Murabito extends Character {
         this.hint = hint;
     }
     @Override
-    public void interact() { System.out.println(name + ": " + hint); }
+    public void interact(Character character) { System.out.println(name + ": " + hint); }
     @Override
     public String getPlayerReaction() { return "I've got to get out of here."; }   
     @Override
